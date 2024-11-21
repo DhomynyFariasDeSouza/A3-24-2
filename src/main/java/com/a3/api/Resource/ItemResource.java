@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.a3.api.Entity.Item;
-import com.a3.api.Services.ItemService;
+import com.a3.api.Service.ItemService;
 
 @RestController
 @RequestMapping(value = "/Itens")

@@ -1,4 +1,4 @@
-package com.a3.api.Services;
+package com.a3.api.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -39,12 +39,9 @@ public class UserService {
 	}
 
 	private void updateData(User entity, User obj) {
-		entity.setAddress(obj.getAddress());
 		entity.setAvatar(obj.getAvatar());
 		entity.setEmail(obj.getEmail());
 		entity.setName(obj.getName());
-		entity.setOpen(obj.isOpen());
-		entity.setCover(obj.getCover());
 		
 	}
 }

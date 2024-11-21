@@ -1,4 +1,4 @@
-package com.a3.api.Services;
+package com.a3.api.Service;
 
 import java.util.List;
 import java.util.Optional;
