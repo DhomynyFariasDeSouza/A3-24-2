@@ -13,7 +13,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table()
+@Table(name = "itens")
 public class Item {
     @Id
     private String nome;
@@ -23,6 +23,9 @@ public class Item {
 
     @Column
     private String descricao;
+
+    @Column
+    private byte[] imagem;
 
     public String getNome() {
         return nome;

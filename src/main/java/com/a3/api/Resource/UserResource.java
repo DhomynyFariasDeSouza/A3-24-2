@@ -19,7 +19,7 @@ import com.a3.api.Entity.User;
 import com.a3.api.Service.UserService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/user")
 public class UserResource {
 
 	@Autowired

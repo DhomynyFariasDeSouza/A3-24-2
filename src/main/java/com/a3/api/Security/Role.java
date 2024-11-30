@@ -7,9 +7,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Builder;
 
 @Entity
 @Table(name = "roles")
+@Builder
 public class Role {
 
     @Id
@@ -18,4 +20,14 @@ public class Role {
 
     @Enumerated(EnumType.STRING)
     private rolesName name;
+
+    public rolesName getName() {
+        return name;
+    }
+
+    public void setName(rolesName name) {
+        this.name = name;
+    }
+
+    
 }

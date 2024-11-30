@@ -19,7 +19,7 @@ import com.a3.api.Entity.Item;
 import com.a3.api.Service.ItemService;
 
 @RestController
-@RequestMapping(value = "/Itens")
+@RequestMapping(value = "/itens")
 public class ItemResource {
 	
 	@Autowired
